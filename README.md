@@ -1,15 +1,25 @@
-# 설명
+# 코로나 스탯
 Tkinter의 기초만을 이용해 코로나 스탯을 만듭니다. (한국 전용)
 
-\* Tkinter는 파이썬의 GUI 구현 모듈입니다.\
-※ 이 프로그램은 파이썬( https://python.org )과 BeautifulSoap가 필요합니다.
+# 시작하기
+## 전제 조건
+이 프로그램을 설치하려면 다음 조건이 충족되어야 합니다.
+```
+BeautifulSoap >= 4.9.1
+Python >= 3.7.9
+```
+
+## 설치 방법
+* 이 페이지의 우측의 릴리즈 부분에서 최신버전을 눌러 들어갑니다.
+* 첨부된 압축파일을 받고 풀어줍니다.
+* main.pyw를 실행합니다.
 
 # 원리
-BeautifulSoap 모듈을 이용해 한국의 코로나19 감염 현황을 크롤링합니다.\
-그리고 크롤링 된 정보를 tkinter 모듈(파이썬 내장)을 이용해 gui로 표시합니다.
+BeautifulSoap 모듈을 이용해 한국의 코로나19 확진자 현황을 크롤링합니다.\
+그리고 크롤링 된 정보를 tkinter 모듈를 이용해 gui로 표시합니다.
 
-크롤링 된 사이트: http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11
+> 크롤링 된 사이트: http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11
 
-# 그 외
-"main.pyw" 파일을 작업표시줄에 고정시켜놓으면 더 편리하게 사용하실수 있습니다.\
-(파이썬으로 연결 -> 파이썬 우클릭 -> 고정됨의 main.pyw 클릭)
+# 주의사항
+사이트를 크롤링하다보니 사이트가 다운되거나 잘못된 정보가 제공되었을 경우\
+정확한 통계로 나오지 않을 수 있습니다.
