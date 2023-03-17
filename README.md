@@ -18,7 +18,7 @@ Python >= 3.7.9
 BeautifulSoap 모듈을 이용해 한국의 코로나19 확진자 현황을 크롤링합니다.\
 그리고 크롤링 된 정보를 tkinter 모듈를 이용해 gui로 표시합니다.
 
-> 크롤링 된 사이트: http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11
+> 크롤링 된 사이트: https://ncov.kdca.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11&ncvContSeq=&contSeq=&board_id=&gubun=
 
 ## 주의사항
 사이트를 크롤링하다보니 사이트가 다운되거나 잘못된 정보가 제공되었을 경우\

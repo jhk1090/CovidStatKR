@@ -9,7 +9,7 @@ ctypes.windll.shcore.SetProcessDpiAwareness(1)
 root = Tk()
 root.title("코로나 확진자 현황")
 root.geometry("480x360")
-url = 'http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11'
+url = 'https://ncov.kdca.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11&ncvContSeq=&contSeq=&board_id=&gubun='
 target = request.urlopen(url)
 soup = BeautifulSoup(target, "html.parser")
 now = time.strftime("%Y. %m. %d")
